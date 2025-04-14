@@ -22,8 +22,28 @@ body {
   border-top: 5px solid #dd1fba;
 }
 
+/* Adjust the layout to center the task manager */
+.task-manager {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-top: 5px solid #dd1fba;
+}
+
 /* Heading */
 h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #343a40;
+}
+
+/* Ensure the header is styled properly */
+h2 {
+  text-align: center;
   font-size: 2rem;
   margin-bottom: 20px;
   font-weight: 700;
